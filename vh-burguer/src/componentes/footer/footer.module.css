@@ -1,0 +1,43 @@
+#footer{
+    height: 20vh;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+}
+
+#footer_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#redes_sociais{
+   width: 25px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+}
+
+#linha {
+    height: 1px;
+    width: 100%;
+    background: var(--accent);
+    opacity: .4;
+}
+
+/* copyright */
+#footer_home p {
+    margin: 0;
+    text-align: center;
+    color: var(--accent);
+    font-size: var(--tamanho-titulo);
+    font-weight: 500;
+}

@@ -1,0 +1,23 @@
+
+:root {
+    --background: #F1F1F1;
+    --primary: #451201;
+    --secondary: #232122;
+    --accent: #FFA300;
+    --text: #000000;
+    --radius: 10px;
+    --tamanho-titulo:50px;
+    --tamanho-botao:17px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-fredoka);
+}
+
+.layout_guide{
+    width: 80%;
+}
