@@ -1,4 +1,4 @@
-//Arquivo que será renderizado inicialmente, quando o comando npm run dev ou quando não há algum rederecionamento vem para cá
+//Arquivo que será renderizado inicialmente, quando o comando npm run dev ou quando não há algum redirecionamento vem para cá
 export async function getServerSideProps(){
   return{
     redirect:{

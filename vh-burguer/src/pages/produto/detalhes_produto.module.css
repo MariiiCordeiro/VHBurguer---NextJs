@@ -1,0 +1,56 @@
+
+.main{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.detalhes_produto{
+    background-color: white;
+    border-radius: var(--radius);
+    margin: 70px 0;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.detalhes_produto h1{
+    font-weight: 500;
+    font-size: 70px;
+    color: var(--accent);
+    padding: 20px;
+}
+
+.detalhes_produto img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--radius);
+
+}
+
+
+.informacao_produto{
+    display: grid;
+    grid-template-columns: 0.6fr 0.2fr;
+    gap: 20px;
+    padding: 50px;
+}
+
+.preco_classificacao{
+    padding: 30px 70px;
+}
+
+.preco_produto{
+    display: flex;
+    flex-direction: column;
+}
+
+.valor{
+    display: flex;
+}
