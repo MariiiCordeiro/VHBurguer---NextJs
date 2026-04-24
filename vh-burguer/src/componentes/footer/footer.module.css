@@ -1,4 +1,4 @@
-#footer{
+/* #footer{
     height: 20vh;
     background-color: var(--primary);
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.container{
+.container_footer{
     display: flex;
     flex-direction: column;
     gap:14px;
@@ -20,16 +20,84 @@
 }
 
 #redes_sociais{
+display: flex;
+gap: 15px;
+}
+
+#redes_sociais img{
    width: 25px;
     height: 25px;
     display: block;
     cursor: pointer;
 }
 
+
+#logo{
+    width:150px;
+}
+
 #linha {
     height: 1px;
     width: 100%;
     background: var(--accent);
+    opacity: .4;
+    border: none;
+}
+
+
+#footer_home p {
+    margin: 0;
+    text-align: center;
+    color: var(--accent);
+    font-size: var(--tamanho-titulo);
+    font-weight: 500;
+} */
+
+/* -----------------------------FOOTER--------------------------------- */
+#footer_home {
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_vhburguer_footer {
+    width: 150px;
+
+}
+
+#icons {
+    display: flex;
+    gap: 14px;
+}
+
+#icons img {
+    width: 25px;
+    height: 25px;
+
+    display: block;
+    cursor: pointer;
+}
+
+/* linha */
+#linha {
+    height: 1px;
+    width: 100%;
+    background-color: var(--accent);
     opacity: .4;
 }
 
@@ -38,6 +106,10 @@
     margin: 0;
     text-align: center;
     color: var(--accent);
-    font-size: var(--tamanho-titulo);
+    font-size: 15px;
     font-weight: 500;
 }
+
+
+
+/* -----------------------------FIM FOOTER--------------------------------- */

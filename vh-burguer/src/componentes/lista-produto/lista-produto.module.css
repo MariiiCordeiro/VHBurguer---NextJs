@@ -1,15 +1,12 @@
-#botoes{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
+#botoes_cardapio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap; 
 }
 
-#edicao{
-    display: flex;
-    gap: 25px;
-}
-
-#filtrar{
+.filtrar{
     background-color: var(--accent);
     border-radius: var(--radius);
     width: 150px;
@@ -22,48 +19,92 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: transform .06s ease, box-shadow .06s ease;
+    text-decoration: none;
 }
 
-#promocao{
-    background-color: var(--accent);
-    border-radius: var(--radius);
-    width: 250px;
-    height: 40px;
-    color: var(--text);
-    font-weight: 500;
-    font-size: var(--tamanho-botao);
-    color: var(--primary);
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.filtrar:active{
+     transform: translateY(4px);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, .18);
 }
 
-#adicionar{
-     background-color: var(--accent);
-    border-radius: var(--radius);
-    width: 250px;
-    height: 40px;
-    color: var(--text);
-    font-weight: 500;
-    font-size: var(--tamanho-botao);
-    color: var(--primary);
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#filtrar img{
+.filtrar img{
     width: 25px;
     padding-left: 8px;
-
+    
 }
+
+#botoes_edicao{
+    display: flex;
+    gap: 40px;
+    padding: 0px 25px;
+}
+
+
+.promocao{
+    background-color: var(--accent);
+    border-radius: var(--radius);
+    width: 415px;
+    height: 40px;
+    color: var(--text);
+    font-weight: 500;
+    font-size: var(--tamanho-botao);
+    color: var(--primary);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.promocao:active{
+     transform: translateY(4px);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, .18);
+}
+
+.adicionar{
+     background-color: var(--accent);
+    border-radius: var(--radius);
+    width: 415px;
+    height: 40px;
+    color: var(--text);
+    font-weight: 500;
+    font-size: var(--tamanho-botao);
+    color: var(--primary);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adicionar:active{
+     transform: translateY(4px);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, .18);
+}
+
 
 #catalogo{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
     gap: 20px;
     padding: 20px 0;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    #catalogo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1200px) {
+    #catalogo {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
