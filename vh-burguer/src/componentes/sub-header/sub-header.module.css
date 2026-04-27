@@ -12,15 +12,10 @@
     
 }
 
-.img{
-    width: 280px;
+.logo_subheader{
+    width: 250px;
 }
 
-
-#nav_menu{
-    display: flex;
-    gap: 25px;
-}
 
 #nav_menu a{
     text-decoration: none;
@@ -30,17 +25,8 @@
 }
 
 
-#logo{
-    width: 250px;
-}
-
 @media (max-width:768px){
-    #btn_icon{
-        display: block;
-        height: 40px;
-    }
-
-    #nav_menu{
-        display: none;
-    }
+    .logo_subheader{
+    width: 150px;
+}
 }

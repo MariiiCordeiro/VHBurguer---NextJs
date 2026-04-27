@@ -1,0 +1,122 @@
+.main {
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.main h1 {
+  font-weight: 500;
+  font-size: var(--tamanho-titulo);
+  color: var(--accent);
+  padding: 20px;
+}
+
+.formulario {
+  width: 400px; 
+  display: flex;
+  flex-direction: column;
+  gap: 18px; 
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  font-size: var(--tamanho-texto);
+  font-weight: 500;
+}
+
+.campo input,
+.campo textarea,
+.campo select {
+  padding: 10px;
+  border-radius: var(--radius);
+  background: white;
+  font-size: 14px;
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.2);
+  border: 1px var(--accent);
+  color: gray;
+}
+
+.campo input:focus {
+  outline: none;
+  border: 3px solid var(--accent);
+}
+
+.campo textarea {
+  resize: none;
+  height: 80px;
+}
+
+.campo textarea:focus {
+  outline: none;
+  border: 3px solid var(--accent);
+}
+
+.campo select:focus {
+  outline: none;
+  border: 3px solid var(--accent);
+}
+
+
+.adicionar_categoria {
+  font-size: 12px;
+  color: var(--primary);
+  text-align: right;
+  cursor: pointer;
+}
+
+.adicionar_promocao {
+  font-size: 12px;
+  color: var(--primary);
+  text-align: right;
+  cursor: pointer;
+}
+
+.botoes {
+  padding: 20px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.botao_salvar {
+  margin-top: 10px;
+  padding: 10px;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--primary);
+  width: 300px;
+}
+
+.botao_promocao {
+  margin-top: 10px;
+  padding: 10px;
+  background: var(--primary);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--accent);
+  width: 300px;
+}
+
+@media (max-width: 640px) {
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .formulario {
+  width: 300px;
+}
+}

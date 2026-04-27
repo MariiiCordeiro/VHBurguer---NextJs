@@ -27,7 +27,7 @@
 }
 
 .detalhes_produto img{
-    width: 50%;
+    width: 60%;
     height: auto;
     object-fit: cover;
     border-radius: var(--radius);
@@ -37,13 +37,22 @@
 
 .informacao_produto{
     display: grid;
-    grid-template-columns: 0.6fr 0.2fr;
-    gap: 20px;
-    padding: 50px;
+    grid-template-columns:2fr 1fr;;
+    gap: 40px;
+    padding: 50px 80px;
+
 }
 
 .preco_classificacao{
-    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.preco_classificacao ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
 }
 
 .preco_produto{
@@ -52,5 +61,34 @@
 }
 
 .valor{
-    display: flex;
+      display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.descricao p {
+    max-width: 600px;
+    font-size: var(--tamanho-texto);
+    text-align: justify;
+}
+
+.descricao h2{
+    padding-bottom: 10px;
+}
+
+.preco_produto h2{
+    padding-bottom: 10px;
+}
+
+.preco_produto p{
+   font-size: var(--tamanho-texto);
+}
+
+.categoria_produto h2{
+    padding-bottom: 10px;
+}
+
+.categoria_produto li{
+    font-size: var(--tamanho-texto);
+    padding-left: 5px;
 }

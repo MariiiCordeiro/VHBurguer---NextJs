@@ -1,0 +1,16 @@
+.main {
+  background-color: var(--background);
+  align-items: center;
+  width: 100%;
+  min-height: 70vh;
+  flex-direction: column;
+   justify-content: center;
+   padding: 50px;
+}
+
+.main h1 {
+  font-weight: 500;
+  font-size: var(--tamanho-titulo);
+  color: var(--accent);
+  padding: 20px 50px 50px;
+}

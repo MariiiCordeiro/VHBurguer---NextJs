@@ -24,7 +24,7 @@ const DetalheProduto = () => {
                                     <p>R$35,00</p>
                                 </div>
                             </div>
-                            <div>
+                            <div className={styles.categoria_produto}>
                                 <h2>Categoria</h2>
                                 <ul>
                                     <li>Premium</li>

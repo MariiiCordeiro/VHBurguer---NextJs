@@ -13,7 +13,7 @@
 }
 
 .img{
-    width: 280px;
+    width: 250px;
 }
 
 #btn_icon{
@@ -42,6 +42,10 @@ border: none;
 }
 
 @media (max-width:768px){
+    .img{
+    width: 150px;
+}
+
     #btn_icon{
         display: block;
         height: 40px;

@@ -39,14 +39,14 @@
 #botoes_edicao{
     display: flex;
     gap: 40px;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 
 
 .promocao{
     background-color: var(--accent);
     border-radius: var(--radius);
-    width: 415px;
+    width: 325px;
     height: 40px;
     color: var(--text);
     font-weight: 500;
@@ -67,7 +67,7 @@
 .adicionar{
      background-color: var(--accent);
     border-radius: var(--radius);
-    width: 415px;
+    width: 325px;
     height: 40px;
     color: var(--text);
     font-weight: 500;
