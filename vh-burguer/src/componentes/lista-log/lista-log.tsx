@@ -13,11 +13,11 @@ const ListaLog = () => {
         <ul className={styles.listagem}>
           <li className={styles.lista_item}>
             <ItemLog />
+            {/* <ItemLog />
             <ItemLog />
             <ItemLog />
             <ItemLog />
-            <ItemLog />
-            <ItemLog />
+            <ItemLog /> */}
           </li>
         </ul>
       </div>

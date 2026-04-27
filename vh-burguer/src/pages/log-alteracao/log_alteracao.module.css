@@ -5,6 +5,7 @@
   flex-direction: column;
    justify-content: center;
    padding: 50px;
+   min-height: 70vh;
 }
 
 .main h1 {
